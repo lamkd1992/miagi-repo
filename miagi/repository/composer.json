@@ -1,0 +1,22 @@
+{
+    "name": "miagi/repository",
+    "authors": [
+        {
+            "name": "Kim Lam",
+            "email": "lamkd@miagi-so.net"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Miagi\\Repository\\": "src/Miagi/Repository/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Miagi\\Repository\\Providers\\RepositoryServiceProvider"
+            ]
+        }
+    }
+}
